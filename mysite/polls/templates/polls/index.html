@@ -15,5 +15,6 @@
     {% else %}
     <p>no polls available</p>
     {% endif %}
+    <a href="{% url 'polls:create_question' %}" type="button" class="btn btn-primary">Create New </a>
 </body>
 </html>
